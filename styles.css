@@ -1,0 +1,128 @@
+/*
+  Name: Margaret Keu
+  Date:  October 9, 2024
+  This is the styles.css page for my creative project 1 of web development work.
+  It is used by all pages in my portfolio to give the site a consistent
+  look and feel.
+*/
+
+body {
+    font-family: "Comfortaa", cursive;
+    background-color: #1305aa;
+    background-image: url("background image.jpg");
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #82ff80;
+}
+
+p {
+    color: white;
+    line-height: 1.8;
+    text-align: left;
+}
+
+ul, ol {
+    color: white;
+    text-align: left;
+    line-height: 1.8; 
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.navbar {
+    text-align: center;
+    background: transparent;
+}
+
+.navbar a {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    background: lightskyblue;
+    color: black;
+    transition: 200ms ease;
+}
+
+.navbar a:hover {
+    color: #82ff80;
+    transform: scale(0.9);
+}
+
+/* Places Page */
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    max-width: 900px; 
+    width: 100%;
+}
+
+article a, a:hover {
+    color: white;
+}
+
+article a:hover {
+    text-decoration: underline;
+    color: #82ff80
+}
+
+.content {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px; 
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.content img {
+    margin-right: 30px; 
+    border: 4px solid gold;
+    border-radius: 20px;
+    max-width: 300px;
+    height: auto; 
+}
+
+.content div {
+    text-align: left; 
+    max-width: 450px; 
+}
+
+.content > div > p {
+    color: #ffcc00; 
+    font-style: italic;
+}
+
+/* About Me Page */
+section {
+    max-width: 800px;
+    margin: auto; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+}
+
+
+blockquote {
+    text-align: center;
+    color: white;
+}
